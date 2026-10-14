@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+thead.pinfo {
+  background-color: #f2f2f200;
+}
+thead {
+  background-color: #f2f2f2;
+}
+
+tbody > tr:first-child {
+  background-color: #e8e8e8;
+}
