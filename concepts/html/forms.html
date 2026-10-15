@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formf HTML</title>
+</head>
+<body>
+    <h1>Forms Concepts of HTML</h1>
+    <p>This is a simple example of an HTML form.</p>
+    <form action="">
+
+        <label for="fname">Name:</label>
+        <input type="text" id="fname" placeholder="Enter your name" minlength="3" maxlength="20" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Enter your last name" minlength="2" maxlength="30" required>
+<br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" minlength="6" maxlength="20" required style="width: 170px;">
+<br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your age" min="1" max="120" required style="width: 175px;">
+<!-- &nbsp; (non-breaking space) ya thoda margin use kar sakte hain. -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required style="width: 150px;">
+   
+    <hr>
+    
+        <label for="gender">Gender:</label><br><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+<br><br>
+        <label for="color">Choose your favorite color:</label>
+        <input type="color" id="color" name="color" required>
+<br><br>
+        <label for="country">Choose your country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+        </select>
+<br><br>
+        <label for="feedback">Please provide your feedback:</label>
+        <textarea id="feedback" name="feedback" placeholder="Enter your feedback here..." ></textarea>
+<br><br>
+        <label for="known-language">Languages you know:</label>
+        <input type="checkbox" id="english" name="known-language" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="spanish" name="known-language" value="spanish">
+        <label for="spanish">Spanish</label>
+        <input type="checkbox" id="french" name="known-language" value="french">
+        <label for="french">French</label>
+        <input type="checkbox" id="hindi" name="known-language" value="hindi"checked>
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="tamil" name="known-language" value="tamil">
+        <label for="tamil">Tamil</label>
+
+<hr>
+<input type="reset" value="Reset Form">
+<input type="submit" value="Submit Form">
+</form>
+</body>
+</html>
