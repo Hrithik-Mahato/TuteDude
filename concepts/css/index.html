@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Hierarchy Experiment</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./Image/favicon.ico">
+    <!-- 1. External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 2. Internal CSS -->
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <!-- 3. Inline CSS -->
+    <h1 style="color: red;">Watch what color I turn!</h1>
+    <p>
+        <h3> What is the Hierarchy (Precedence)?</h3>
+When multiple CSS rules target the same element, the browser uses the Cascade to decide which style wins. In terms of sheer location/type hierarchy:<br> 
+<ol>
+    <li>Inline CSS is at the very top. It overrides both internal and external CSS because it sits closest to the element itself.</li>
+    <li>Internal and External CSS <strong>share the same general weight level.</strong> Between the two, <i>whichever one is loaded or written last in the HTML document wins</i> (due to the cascade rule of "later rules overwrite earlier ones").</li>
+</ol>
+
+    </p>
+
+
+</body>
+</html>

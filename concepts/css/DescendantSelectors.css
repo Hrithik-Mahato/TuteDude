@@ -1,0 +1,15 @@
+/* Experiment 1: Descendant Selector (Space) */
+/* Yeh container ke andar kisi bhi level par ho, sabko pakad lega */
+.container p {
+    color: blue;
+}
+
+/* Experiment 2: Child Selector (>) */
+/* Yeh sirf aur sirf container ke IMMEDIATE child ko pakadega */
+.container > p {
+    background-color: lightgreen;
+}
+
+p span {
+    color: orange;
+}
