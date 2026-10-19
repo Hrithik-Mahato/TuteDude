@@ -1,6 +1,6 @@
 # 🧺 Laundry Wallah - HTML Project
 
-## 📌 About the Project
+## 📌 About the Project [🚀 Launch Demo](https://html-task02-pqsaslfd4-mern-stack15.vercel.app/)
 
 Laundry Wallah is a simple laundry service webpage built using HTML.
 
