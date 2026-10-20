@@ -16,6 +16,7 @@ Click any task card below to view its **Live Demo** or dive directly into the **
 | **Task 01** | HTML5 | [🚀 Launch Demo](https://task-01-me5os5aw6-mern-stack15.vercel.app/) | [📁 View Folder](https://github.com/Hrithik-Mahato/TuteDude/tree/main/Task01) |
 | **Task 02** | HTML5 | [🚀 Launch Demo](https://html-task02-pqsaslfd4-mern-stack15.vercel.app/) | [📁 View Folder](./Task02) |
 | **Task 03** | HTML5, CSS | [🚀 Launch Demo](https://task-03-five.vercel.app/) | [📁 View Folder](./Task03) |
+| **Task 04** | HTML5, CSS | [🚀 Launch Demo](https://task-04-three.vercel.app/) | [📁 View Folder](./Task04) |
 | **Concepts Practice** | HTML-CSS | *(Practice Modules)* | [📁 View Concepts](./concepts) |
 
 ---
