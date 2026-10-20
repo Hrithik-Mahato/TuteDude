@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap');
+h1 {text-align:center;
+    color:orangered;
+    text-decoration:underline;
+    text-decoration-style:wavy;
+    font-family: 'Rubik Storm', sans-serif;
+    text-decoration-color:blue;
+    
+}
+p{
+    text-align:justify;
+    font-family: times new roman;
+    background-color:lightblue;
+}
