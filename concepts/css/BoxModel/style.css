@@ -1,0 +1,9 @@
+/* By Default margin and display */
+body{
+    margin: 10px;
+    display: block;
+}
+div{
+    border: 20px solid green;
+    padding: 35px 40px 50px 60px;
+}
