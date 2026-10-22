@@ -17,6 +17,7 @@ Click any task card below to view its **Live Demo** or dive directly into the **
 | **Task 02** | HTML5 | [🚀 Launch Demo](https://html-task02-pqsaslfd4-mern-stack15.vercel.app/) | [📁 View Folder](./Task02) |
 | **Task 03** | HTML5, CSS | [🚀 Launch Demo](https://task-03-five.vercel.app/) | [📁 View Folder](./Task03) |
 | **Task 04** | HTML5, CSS | [🚀 Launch Demo](https://task-04-three.vercel.app/) | [📁 View Folder](./Task04) |
+| **Task 05** | HTML5, CSS | [🚀 Launch Demo](https://task-05-omega.vercel.app/) | [📁 View Folder](./Task05) |
 | **Concepts Practice** | HTML-CSS | *(Practice Modules)* | [📁 View Concepts](./concepts) |
 
 ---
