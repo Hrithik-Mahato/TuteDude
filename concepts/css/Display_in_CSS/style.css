@@ -1,0 +1,36 @@
+*{
+    border: 1px solid red;
+    margin: 0; 
+    padding: 0;
+}
+p{
+    display: inline-block;
+    /*by default display in block */
+    
+    /* width:60px; */
+}
+#click-on-me{
+    width: 60;
+    display: inline-block;
+    /* by default it is inline */
+    height: 125px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    display: inline;
+}
+ul{
+    text-align: end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    padding: 30px;
+    
+}
+img{
+    /* by default inline */
+    display: block;
+    width: 225px;
+}
