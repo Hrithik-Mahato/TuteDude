@@ -1,0 +1,50 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+.box{
+   width: 100px;
+   height: 100px;
+}
+.static{
+    /* by default all position are static */
+    position: static;
+    background-color: blue;
+    color: white;
+}
+.relative{
+    /* work with the class container */
+    position:relative;
+    background-color: blueviolet;
+    top: 50px;
+    left:100px;
+    color:white;
+}
+.absolute{
+    /* work with html root element */
+    background-color: brown;
+    color: aliceblue;
+    position:absolute;
+    top: 0;
+    right:0;
+}
+.fixed{
+    background-color: red;
+    color:white;
+    /* this is used in navbar to fix the content */
+    position:fixed;
+    right: 10px;
+}
+.sticky{
+    background-color: green;
+    color: white;
+    position:sticky;
+    top:300px;
+    left:12px;
+
+}
+.blankspace{
+    height:400vh;
+}
+/* learn more about z-index */
