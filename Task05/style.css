@@ -1,0 +1,131 @@
+* { 
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color:white;
+  color: black;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  padding: 0 5vw;
+  line-height: 10vh; 
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  font-size: 2vw;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+.nav-links {
+  display: inline-block;
+  width: 58%;
+  text-align: center;
+  vertical-align: middle;
+  font-size:x-large;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 1.5vw;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:black;
+  font-size: 1.6vw;
+}
+
+.user-profile {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.username {
+  display: inline-block;
+  background-color: rgb(45, 193, 251);
+  color: white;
+  font-weight: 800;
+  padding: 0 2vw;
+  height: 10vh;
+  line-height: 10vh;
+  border-radius: 20px;
+  font-size: 1vw;
+}
+
+.hero-section {
+  width: 100%;
+  height: 88vh; 
+  padding: 0 6vw;
+  white-space: nowrap; 
+}
+
+.hero-left-div {
+  display: inline-block;
+  width: 48%;
+  height: 100%;
+  vertical-align: middle;
+  white-space: normal; 
+  padding-top: 8vh;
+}
+
+.hero-heading {
+  font-size: 3.2vw;
+  font-weight: 800;
+  line-height: 1.25;
+  color: black;
+  margin-bottom: 2vh;
+}
+
+.hero-heading .highlight {
+  color: rgb(45, 193, 251);
+  display: inline;
+}
+
+.hero-description {
+  font-size: 1.15vw;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 4vh;
+  max-width: 90%;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: rgb(45, 193, 251);
+  color: #ffffff;
+  font-size: 1.1vw;
+  font-weight: 600;
+  border: none;
+  padding: 1.8vh 2.2vw;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(28, 176, 255, 0.3);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.hero-right-div {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  white-space: normal;
+}
+
+.hero-image {
+  height: 700px;
+  margin-top: 10vh;
+}
