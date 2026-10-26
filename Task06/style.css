@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.left-section {
+    flex: 1;
+    background-color: rgb(13, 126, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-section img {
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+    .right-section {
+        flex: 1;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+.form-wrapper {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-and-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-and-description h1 {
+    font-size: 3.5rem;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.header-and-description p {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-input label {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.form-input input {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: rgba(242, 242, 250, 0.936);
+    font-size: 1 rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    outline: none;
+    transition: border-color 1s ease;
+}
+
+.form-input input:focus {
+    border-color: rgb(27, 27, 238);
+}
+
+.form-input input::placeholder {
+    color: grey;
+}
+
+.forgot-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.forgot-link a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #0095ff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color:  rgb(27, 27, 238);
+}
+
+.register-text {
+    text-align: center;
+    font-size: 0.85rem;
+    color: black;
+    margin-top: 30px;
+}
+
+.register-text a {
+    color:  rgb(27, 178, 238);
+    text-decoration: none;
+    font-weight: 500;
+}
