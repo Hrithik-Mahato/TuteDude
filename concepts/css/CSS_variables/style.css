@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --backg-color:aqua; 
+    /* this is a css variable */
+}
+:root{
+    /* this is for global variable */
+    --heading-color: #d9ff02;
+    --secondry-heading-color: rgb(95, 11, 240);
+    --card-bg-clor: grey;
+    --parent-bg-color: rgb(23, 21, 21);
+}
+.container{
+    padding: 45px;
+    min-height: 100vh;
+    background-color: var(--parent-bg-color);
+}
+h1{
+    text-align: center;
+    color: var(--heading-color);
+}
+h2{
+    background-color: var(--backg-color);
+    color: var(--secondry-heading-color);
+}
+.box{
+    padding: 20px;
+    background-color: var(--card-bg-clor);
+}
