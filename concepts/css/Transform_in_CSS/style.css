@@ -1,0 +1,31 @@
+.outer-container{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin:100px auto;
+}
+
+.inner-container{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scale(1.5);
+    transform: scaleY(0.7) scaleX(1.5); */
+    /* transform: scalex(1.5); */
+    /* transform: scale(0.5, 0.7); */
+    /* transform: skew(30deg, 25deg); */
+    /* transform: translate(-20px, 50px); */
+    /* transform: rotate(25deg); */
+    /* transform: rotateX(70deg); */
+    /* transform: rotate(70deg);
+    transform-origin: top left; */
+    transform-origin: 40% 20%;
+    transition: 0.6s ease;
+}
+.inner-container:hover{
+    transform: rotate(70deg);
+}
