@@ -20,6 +20,7 @@ Click any task card below to view its **Live Demo** or dive directly into the **
 | **Task 05** | HTML5, CSS | [🚀 Launch Demo](https://task-05-omega.vercel.app/) | [📁 View Folder](./All_Tasks/Task05) |
 | **Task 06** | HTML5, CSS | [🚀 Launch Demo](https://task-06-ruby.vercel.app/) | [📁 View Folder](./All_Tasks/Task06) |
 | **Task 07** | HTML5, CSS | [🚀 Launch Demo](https://task-07-two.vercel.app/) | [📁 View Folder](./All_Tasks/Task07) |
+| **Task 08** | HTML5, CSS | [🚀 Launch Demo](https://task-08-beige.vercel.app/) | [📁 View Folder](./All_Tasks/Task08) |
 | **Concepts Practice** | HTML-CSS | *(Practice Modules)* | [📁 View Concepts](./concepts) |
 
 ---
