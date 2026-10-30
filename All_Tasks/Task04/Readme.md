@@ -1,9 +1,3 @@
-I'll structure this as a beginner-friendly `README.md` that you can add directly to your GitHub repository. We'll follow your requested concept order, explain both the HTML and CSS, and focus on why developers choose each technique instead of its alternatives.
-
-Because this task combines HTML structure, CSS sizing, the box model, image fitting, and typography, I'll divide the learning material into parts so each concept gets a proper explanation.
-
-# Part 1 — `README.md`: Concept Map and Foundation
-
 # Task 04: CSS Units, Box Model, and Fonts
 
 ## 📚 Project Overview
@@ -26,32 +20,28 @@ The main learning objective is to understand how CSS units, the CSS box model, e
 
 The following concepts are arranged from the most basic to the most advanced. Each concept builds on the previous one.
 
-**Legend:**
-
-- 🟢 FAMILIAR — A concept you have already encountered or are likely to recognize.
-- 🆕 NEW — A concept to learn or understand more deeply.
 
 | Order | Concept                                            | Status               |
 | ----- | -------------------------------------------------- | -------------------- |
-| 1     | HTML Document Structure                            | 🟢 FAMILIAR          |
-| 2     | HTML Elements, Tags, and Attributes                | 🟢 FAMILIAR          |
-| 3     | Linking HTML with External CSS                     | 🟢 FAMILIAR          |
-| 4     | CSS Syntax and Declarations                        | 🟢 FAMILIAR          |
-| 5     | CSS Selectors and Specificity Basics               | 🆕 NEW               |
-| 6     | The CSS Cascade and Universal Reset                | 🆕 NEW               |
-| 7     | The CSS Box Model                                  | 🆕 NEW               |
-| 8     | CSS Units: Pixels, Percentages, and Viewport Units | 🆕 NEW               |
-| 9     | Width, Height, Margin, and Padding                 | 🟢 FAMILIAR / REVIEW |
-| 10    | Block-Level Elements and `display`                 | 🆕 NEW               |
-| 11    | Image Sizing and `object-fit`                      | 🆕 NEW               |
-| 12    | CSS Borders and Their Effect on Layout             | 🆕 NEW               |
-| 13    | CSS Gradients and Colors                           | 🆕 NEW               |
-| 14    | Typography: Font Size, Family, and Weight          | 🆕 NEW               |
-| 15    | Text Alignment and Decoration                      | 🆕 NEW               |
-| 16    | Cursor Styling and Basic Interaction Cues          | 🆕 NEW               |
-| 17    | Combining CSS Properties into a Complete Layout    | 🆕 NEW               |
+| 1     | HTML Document Structure                            | 🟢           |
+| 2     | HTML Elements, Tags, and Attributes                | 🟢           |
+| 3     | Linking HTML with External CSS                     | 🟢           |
+| 4     | CSS Syntax and Declarations                        | 🟢           |
+| 5     | CSS Selectors and Specificity Basics               | 🆕                |
+| 6     | The CSS Cascade and Universal Reset                | 🆕                |
+| 7     | The CSS Box Model                                  | 🆕                |
+| 8     | CSS Units: Pixels, Percentages, and Viewport Units | 🆕                |
+| 9     | Width, Height, Margin, and Padding                 | 🟢  |
+| 10    | Block-Level Elements and `display`                 | 🆕                |
+| 11    | Image Sizing and `object-fit`                      | 🆕                |
+| 12    | CSS Borders and Their Effect on Layout             | 🆕                |
+| 13    | CSS Gradients and Colors                           | 🆕                |
+| 14    | Typography: Font Size, Family, and Weight          | 🆕                |
+| 15    | Text Alignment and Decoration                      | 🆕                |
+| 16    | Cursor Styling and Basic Interaction Cues          | 🆕                |
+| 17    | Combining CSS Properties into a Complete Layout    | 🆕                |
 
-*Status is a suggested starting point, not a test result. Mark a concept as familiar only when you can explain and use it independently.*
+*Status is a suggested starting point, not a test result. Mark a concept as  only when you can explain and use it independently.*
 
 ## Concept Chain
 
@@ -292,9 +282,7 @@ Use CSS declarations whenever you need to change color, size, spacing, layout, b
 
 Writing invalid property names or values, such as `text-color: red`; the correct property for text color is `color: red;`.
 
-# Part 2 — Selectors, Cascade, Box Model, and CSS Units
-
-Continue this section after Concept 4 in your `README.md`.
+# Selectors, Cascade, Box Model, and CSS Units
 
 ## CONCEPT 5: CSS Selectors and Specificity Basics
 
@@ -461,7 +449,9 @@ div.image-container {
 
 **Tiny number example:** Suppose an element has a content width of `100px`, horizontal padding of `10px` on each side, and a `2px` border on each side. Under the default `content-box` model, its outer border-box width is:
 
+```math
 (100 + 10 + 10 + 2 + 2 = 124\text{px})
+```
 
 With `border-box`, a declared width of `100px` includes the padding and border.
 
@@ -484,10 +474,10 @@ The default sizing model is `content-box`.
 
 Under `content-box`:
 
-[\
+```math
 \text{Outer width} =\
 \text{Content width} + \text{Padding} + \text{Borders}\
-]
+```
 
 Under `border-box`, the declared width includes content, padding, and borders.
 
@@ -562,17 +552,25 @@ width: 50vw;
 margin: 10vh 25vw;
 ```
 
+|Values |Meaning |
+|---|---|
+|margin: 10px;|all four sides|
+|margin: 10vh 25vw;|top/bottom + left/right|
+|margin: 10px 20px 30px;|top + left/right + bottom|
+|margin: 10px 20px 30px 40px;|top + right + bottom + left|
+---
+
 If the viewport is `1200px` wide:
 
-[\
+```math
 50vw = \frac{50}{100}\times1200 = 600\text{px}\
-]
+```
 
 Likewise:
 
-[\
+```math
 25vw = \frac{25}{100}\times1200 = 300\text{px}\
-]
+```
 
 **Why use it?** Viewport units are useful when a measurement should scale with the browser's visible area.
 
@@ -629,7 +627,7 @@ Signals in your assignment include "25% of the width," "10% of the viewport heig
 
 Treating `vw`, `vh`, `%`, and `rem` as interchangeable; each uses a different reference, so the same number can produce very different sizes.
 
-# Part 3 — Dimensions, Display, Images, Borders, and Gradients
+# Dimensions, Display, Images, Borders, and Gradients
 
 ## CONCEPT 9: Width, Height, Margin, and Padding
 
@@ -719,6 +717,7 @@ Assuming `margin: 10vh 25vw` means 10% spacing on every side; it means 10vh vert
 ## CONCEPT 10: Block-Level Elements and `display`
 
 ### WHAT is it?
+[CSS Display Property | Sigma Web Development Course - Tutorial #23](https://youtu.be/hRHV5cjEB1w?si=dexOrsc4re3DI2fy)
 
 The `display` property controls how an element participates in layout.
 
@@ -959,7 +958,7 @@ Use gradients when a task requests a gradient button, a smooth color transition,
 
 Confusing a gradient's direction with the order of its color stops, or assuming an RGBA alpha value of `0.877` means 0.877% opacity.
 
-# Part 4 — Typography, Text Styling, and the Complete Layout
+# Typography, Text Styling, and the Complete Layout
 
 ## CONCEPT 14: Typography — Font Size, Family, and Weight
 
@@ -1185,9 +1184,9 @@ Your task combines a viewport-sized body, a container, an image, a button, and a
 
 **Tiny number example:** If a viewport is `1200px` wide, a container declared as `50vw` is `600px` wide. Two horizontal margins of `25vw` each are `300px` apiece, so the intended horizontal calculation is:
 
-[\
+```math
 300 + 600 + 300 = 1200\text{px}\
-]
+```
 
 This fills the viewport width mathematically, before considering scrollbar behavior and other layout constraints.
 
@@ -1297,7 +1296,7 @@ Checking each CSS declaration separately but failing to check whether the combin
 
 ---
 
-# 3. Important Layout Calculation for This Project
+# Important Layout Calculation for This Project
 
 The intended design uses these dimensions:
 
@@ -1326,9 +1325,9 @@ The container's intended dimensions are:
 
 The horizontal calculation is:
 
-[\
+```math
 300+600+300=1200\text{px}\
-]
+```
 
 This shows why `50vw` plus two margins of `25vw` is a deliberate combination: it mathematically accounts for the full viewport width.
 
@@ -1352,7 +1351,7 @@ Viewport units do not guarantee that a layout fits every screen. For example:
 
 A responsive layout should therefore be tested at multiple screen sizes instead of relying only on the arithmetic.
 
-# Part 5 — Understanding the Code as One Complete System
+# Understanding the Code as One Complete System
 
 ## 4. HTML Code: Line-by-Line Explanation
 
@@ -1611,7 +1610,7 @@ The current HTML creates a button, and the CSS styles it, but no JavaScript clic
 
 ---
 
-## 8. Final Learning Checklist
+## Final Learning Checklist Ask yourself.
 
 Use this checklist to test whether you understand the concepts rather than merely recognizing the code.
 
@@ -1634,7 +1633,7 @@ Use this checklist to test whether you understand the concepts rather than merel
 
 ---
 
-## 9. Conclusion
+## Conclusion
 
 This project demonstrates how HTML provides the structure of a webpage while CSS controls its presentation.
 
@@ -1642,8 +1641,6 @@ The most important lesson is that CSS properties do not work in isolation. The b
 
 Understanding these relationships allows you to move beyond copying CSS and begin predicting how a layout will behave.
 
-**Next step:** Change one property at a time in `style.css`, observe the result in your browser, and explain why the layout changed. This is an effective way to build practical CSS knowledge and develop your GitHub portfolio.
+[Help Youtube Video 01](https://youtu.be/APhPNDikwRE?si=rqwH83lghQf5daAr)
 
-You can save the five parts above as `README.md` in the same folder as `index.html` and `style.css`.
-
-One important learning tip: don't try to memorize the entire README before building something else. First, make sure you can explain the box model and calculate `50vw`, `25vw`, and `10vh` yourself. Those concepts are especially important for understanding why your particular layout works—and why it may overflow on some screens.
+[Help Youtube Video 02 best](https://youtu.be/nkaAJYfRDVk?si=pKE8FRJ_l7J64NZ1)
