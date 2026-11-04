@@ -261,5 +261,3 @@ CSS Transition → `transition-property` → `transition-duration` → `transiti
 |-----------|---------------------------------------|----------|------------------------------------------|
 | `.box`    | `border-radius`, `background-color`, `transform` | 1s      | Turns green, becomes circle, rotates 180° |
 | `.item`   | all (shorthand `0.3s`)                | 0.3s    | Text yellow, red background, moves up    |
-
-You can copy this entire content into a `README.md` file for future reference.
